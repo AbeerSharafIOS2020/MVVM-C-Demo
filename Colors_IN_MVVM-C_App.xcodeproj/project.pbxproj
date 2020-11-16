@@ -3,27 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8364E13CB25FB7409AA3F804 /* Pods_Colors_IN_MVVM_C_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AADC3B8FA45D37CEF30F7D4 /* Pods_Colors_IN_MVVM_C_App.framework */; };
+		86D0CB033CBE4FEE60C28CB6 /* Pods_Colors_IN_MVVM_C_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1F7EBE9E8493A640D2E91 /* Pods_Colors_IN_MVVM_C_App.framework */; };
+		C3404536256310E100329923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3404532256310E100329923 /* LaunchScreen.storyboard */; };
+		C3404538256310E100329923 /* Main copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3404534256310E100329923 /* Main copy.storyboard */; };
+		C340453E2563117900329923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C340453D2563117900329923 /* Assets.xcassets */; };
 		C38D3AA125625F9600ABBCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AA025625F9600ABBCED /* AppDelegate.swift */; };
-		C38D3AA325625F9600ABBCED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AA225625F9600ABBCED /* SceneDelegate.swift */; };
-		C38D3AA525625F9600ABBCED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AA425625F9600ABBCED /* ViewController.swift */; };
-		C38D3AA825625F9600ABBCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38D3AA625625F9600ABBCED /* Main.storyboard */; };
-		C38D3AAA25625F9B00ABBCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38D3AA925625F9B00ABBCED /* Assets.xcassets */; };
-		C38D3AAD25625F9B00ABBCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38D3AAB25625F9B00ABBCED /* LaunchScreen.storyboard */; };
+		C38D3AC12562622100ABBCED /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AC02562622100ABBCED /* MainVC.swift */; };
+		C38D3ACC256268B200ABBCED /* MainVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3ACB256268B200ABBCED /* MainVMProtocol.swift */; };
+		C38D3ACE2562690300ABBCED /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3ACD2562690300ABBCED /* MainVM.swift */; };
+		C38D3AD025626ABD00ABBCED /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3ACF25626ABD00ABBCED /* GreenVC.swift */; };
+		C38D3AD725626DED00ABBCED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AD525626DED00ABBCED /* MainView.swift */; };
+		C38D3AD825626DED00ABBCED /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38D3AD625626DED00ABBCED /* MainView.xib */; };
+		C38D3ADA25626F4700ABBCED /* GreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AD925626F4700ABBCED /* GreenVM.swift */; };
+		C38D3ADC25626F5F00ABBCED /* GreenVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3ADB25626F5F00ABBCED /* GreenVMProtocol.swift */; };
+		C38D3ADF25626F7C00ABBCED /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3ADD25626F7C00ABBCED /* GreenView.swift */; };
+		C38D3AE025626F7C00ABBCED /* GreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38D3ADE25626F7C00ABBCED /* GreenView.xib */; };
+		C38D3AE225626FEC00ABBCED /* RedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AE125626FEC00ABBCED /* RedVC.swift */; };
+		C38D3AE42562702F00ABBCED /* RedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AE32562702F00ABBCED /* RedVM.swift */; };
+		C38D3AE62562704300ABBCED /* RedVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AE52562704300ABBCED /* RedVMProtocol.swift */; };
+		C38D3AE92562705B00ABBCED /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AE72562705B00ABBCED /* RedView.swift */; };
+		C38D3AEA2562705B00ABBCED /* RedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C38D3AE82562705B00ABBCED /* RedView.xib */; };
+		C38D3AEC2562730E00ABBCED /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AEB2562730E00ABBCED /* Coordinator.swift */; };
+		C38D3AEE2562734E00ABBCED /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AED2562734E00ABBCED /* MainCoordinator.swift */; };
+		C38D3AF0256273C100ABBCED /* GreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AEF256273C100ABBCED /* GreenCoordinator.swift */; };
+		C38D3AF2256274CA00ABBCED /* RedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38D3AF1256274CA00ABBCED /* RedCoordinator.swift */; };
+		C38D3AF52562AC0D00ABBCED /* Colors_IN_MVVM-C_App.app in Resources */ = {isa = PBXBuildFile; fileRef = C38D3A9D25625F9600ABBCED /* Colors_IN_MVVM-C_App.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AADC3B8FA45D37CEF30F7D4 /* Pods_Colors_IN_MVVM_C_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Colors_IN_MVVM_C_App.framework; path = "../../../../../../../../Desktop/work shop /Colors_IN_MVVM-C_App/Pods/Pods_Colors_IN_MVVM_C_App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967D7671DB38BCC2F14070B /* Pods-Colors_IN_MVVM-C_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors_IN_MVVM-C_App.release.xcconfig"; path = "Target Support Files/Pods-Colors_IN_MVVM-C_App/Pods-Colors_IN_MVVM-C_App.release.xcconfig"; sourceTree = "<group>"; };
+		8722DE72BEC61A9C4956175B /* Pods-Colors_IN_MVVM-C_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors_IN_MVVM-C_App.debug.xcconfig"; path = "Target Support Files/Pods-Colors_IN_MVVM-C_App/Pods-Colors_IN_MVVM-C_App.debug.xcconfig"; sourceTree = "<group>"; };
+		C3404532256310E100329923 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Colors_IN_MVVM-C_App/Resources/Storyboards/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		C3404534256310E100329923 /* Main copy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Main copy.storyboard"; path = "Colors_IN_MVVM-C_App/Resources/Storyboards/Main copy.storyboard"; sourceTree = SOURCE_ROOT; };
+		C340453D2563117900329923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Colors_IN_MVVM-C_App/Resources/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		C38D3A9D25625F9600ABBCED /* Colors_IN_MVVM-C_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors_IN_MVVM-C_App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38D3AA025625F9600ABBCED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C38D3AA225625F9600ABBCED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C38D3AA425625F9600ABBCED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C38D3AA725625F9600ABBCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C38D3AA925625F9B00ABBCED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C38D3AAC25625F9B00ABBCED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C38D3AAE25625F9B00ABBCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38D3AC02562622100ABBCED /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C38D3ACB256268B200ABBCED /* MainVMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVMProtocol.swift; sourceTree = "<group>"; };
+		C38D3ACD2562690300ABBCED /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		C38D3ACF25626ABD00ABBCED /* GreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		C38D3AD525626DED00ABBCED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C38D3AD625626DED00ABBCED /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C38D3AD925626F4700ABBCED /* GreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVM.swift; sourceTree = "<group>"; };
+		C38D3ADB25626F5F00ABBCED /* GreenVMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenVMProtocol.swift; sourceTree = "<group>"; };
+		C38D3ADD25626F7C00ABBCED /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		C38D3ADE25626F7C00ABBCED /* GreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenView.xib; sourceTree = "<group>"; };
+		C38D3AE125626FEC00ABBCED /* RedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RedVC.swift; path = "Colors_IN_MVVM-C_App/MVVC-C/Screens/Red/RedVC.swift"; sourceTree = SOURCE_ROOT; };
+		C38D3AE32562702F00ABBCED /* RedVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedVM.swift; sourceTree = "<group>"; };
+		C38D3AE52562704300ABBCED /* RedVMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedVMProtocol.swift; sourceTree = "<group>"; };
+		C38D3AE72562705B00ABBCED /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		C38D3AE82562705B00ABBCED /* RedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedView.xib; sourceTree = "<group>"; };
+		C38D3AEB2562730E00ABBCED /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C38D3AED2562734E00ABBCED /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		C38D3AEF256273C100ABBCED /* GreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCoordinator.swift; sourceTree = "<group>"; };
+		C38D3AF1256274CA00ABBCED /* RedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCoordinator.swift; sourceTree = "<group>"; };
+		EBB1F7EBE9E8493A640D2E91 /* Pods_Colors_IN_MVVM_C_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors_IN_MVVM_C_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8364E13CB25FB7409AA3F804 /* Pods_Colors_IN_MVVM_C_App.framework in Frameworks */,
+				86D0CB033CBE4FEE60C28CB6 /* Pods_Colors_IN_MVVM_C_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494CCA4422137854667C0CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8722DE72BEC61A9C4956175B /* Pods-Colors_IN_MVVM-C_App.debug.xcconfig */,
+				4967D7671DB38BCC2F14070B /* Pods-Colors_IN_MVVM-C_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A2460161F43F945FB33EEC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AADC3B8FA45D37CEF30F7D4 /* Pods_Colors_IN_MVVM_C_App.framework */,
+				EBB1F7EBE9E8493A640D2E91 /* Pods_Colors_IN_MVVM_C_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C38D3A9425625F9600ABBCED = {
 			isa = PBXGroup;
 			children = (
 				C38D3A9F25625F9600ABBCED /* Colors_IN_MVVM-C_App */,
 				C38D3A9E25625F9600ABBCED /* Products */,
+				494CCA4422137854667C0CBC /* Pods */,
+				A2460161F43F945FB33EEC1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +120,112 @@
 			isa = PBXGroup;
 			children = (
 				C38D3AA025625F9600ABBCED /* AppDelegate.swift */,
-				C38D3AA225625F9600ABBCED /* SceneDelegate.swift */,
-				C38D3AA425625F9600ABBCED /* ViewController.swift */,
-				C38D3AA625625F9600ABBCED /* Main.storyboard */,
-				C38D3AA925625F9B00ABBCED /* Assets.xcassets */,
-				C38D3AAB25625F9B00ABBCED /* LaunchScreen.storyboard */,
+				C38D3AB9256260F200ABBCED /* MVVC-C */,
+				C38D3AB82562607400ABBCED /* Resources */,
 				C38D3AAE25625F9B00ABBCED /* Info.plist */,
 			);
 			path = "Colors_IN_MVVM-C_App";
+			sourceTree = "<group>";
+		};
+		C38D3AB82562607400ABBCED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AF72562B3C300ABBCED /* Storyboards */,
+				C38D3AFD2562B3C300ABBCED /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C38D3AB9256260F200ABBCED /* MVVC-C */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AD125626AFB00ABBCED /* Screens */,
+				C38D3ABD2562613F00ABBCED /* Coordinators */,
+			);
+			path = "MVVC-C";
+			sourceTree = "<group>";
+		};
+		C38D3ABA2562610300ABBCED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C38D3ABD2562613F00ABBCED /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AEB2562730E00ABBCED /* Coordinator.swift */,
+				C38D3AED2562734E00ABBCED /* MainCoordinator.swift */,
+				C38D3AEF256273C100ABBCED /* GreenCoordinator.swift */,
+				C38D3AF1256274CA00ABBCED /* RedCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		C38D3AD125626AFB00ABBCED /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AD425626B2900ABBCED /* Main */,
+				C38D3AD325626B1B00ABBCED /* Red */,
+				C38D3AD225626B0C00ABBCED /* Green */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C38D3AD225626B0C00ABBCED /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3ACF25626ABD00ABBCED /* GreenVC.swift */,
+				C38D3AD925626F4700ABBCED /* GreenVM.swift */,
+				C38D3ADB25626F5F00ABBCED /* GreenVMProtocol.swift */,
+				C38D3ADD25626F7C00ABBCED /* GreenView.swift */,
+				C38D3ADE25626F7C00ABBCED /* GreenView.xib */,
+				C38D3ABA2562610300ABBCED /* Model */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		C38D3AD325626B1B00ABBCED /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AE125626FEC00ABBCED /* RedVC.swift */,
+				C38D3AE32562702F00ABBCED /* RedVM.swift */,
+				C38D3AE52562704300ABBCED /* RedVMProtocol.swift */,
+				C38D3AE72562705B00ABBCED /* RedView.swift */,
+				C38D3AE82562705B00ABBCED /* RedView.xib */,
+			);
+			path = Red;
+			sourceTree = "<group>";
+		};
+		C38D3AD425626B2900ABBCED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C38D3AC02562622100ABBCED /* MainVC.swift */,
+				C38D3ACD2562690300ABBCED /* MainVM.swift */,
+				C38D3ACB256268B200ABBCED /* MainVMProtocol.swift */,
+				C38D3AD525626DED00ABBCED /* MainView.swift */,
+				C38D3AD625626DED00ABBCED /* MainView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C38D3AF72562B3C300ABBCED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C3404532256310E100329923 /* LaunchScreen.storyboard */,
+				C3404534256310E100329923 /* Main copy.storyboard */,
+			);
+			name = Storyboards;
+			path = Resources/Storyboards;
+			sourceTree = "<group>";
+		};
+		C38D3AFD2562B3C300ABBCED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C340453D2563117900329923 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C38D3AB125625F9B00ABBCED /* Build configuration list for PBXNativeTarget "Colors_IN_MVVM-C_App" */;
 			buildPhases = (
+				8BAF728E8F00AADC0A732DF3 /* [CP] Check Pods Manifest.lock */,
 				C38D3A9925625F9600ABBCED /* Sources */,
 				C38D3A9A25625F9600ABBCED /* Frameworks */,
 				C38D3A9B25625F9600ABBCED /* Resources */,
+				1F7B2E8C11BE65DFD801FF5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +288,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38D3AAD25625F9B00ABBCED /* LaunchScreen.storyboard in Resources */,
-				C38D3AAA25625F9B00ABBCED /* Assets.xcassets in Resources */,
-				C38D3AA825625F9600ABBCED /* Main.storyboard in Resources */,
+				C3404538256310E100329923 /* Main copy.storyboard in Resources */,
+				C3404536256310E100329923 /* LaunchScreen.storyboard in Resources */,
+				C38D3AEA2562705B00ABBCED /* RedView.xib in Resources */,
+				C38D3AD825626DED00ABBCED /* MainView.xib in Resources */,
+				C38D3AE025626F7C00ABBCED /* GreenView.xib in Resources */,
+				C340453E2563117900329923 /* Assets.xcassets in Resources */,
+				C38D3AF52562AC0D00ABBCED /* Colors_IN_MVVM-C_App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F7B2E8C11BE65DFD801FF5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors_IN_MVVM-C_App/Pods-Colors_IN_MVVM-C_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Colors_IN_MVVM-C_App/Pods-Colors_IN_MVVM-C_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Colors_IN_MVVM-C_App/Pods-Colors_IN_MVVM-C_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BAF728E8F00AADC0A732DF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colors_IN_MVVM-C_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C38D3A9925625F9600ABBCED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38D3AA525625F9600ABBCED /* ViewController.swift in Sources */,
+				C38D3AEE2562734E00ABBCED /* MainCoordinator.swift in Sources */,
+				C38D3AEC2562730E00ABBCED /* Coordinator.swift in Sources */,
+				C38D3AF0256273C100ABBCED /* GreenCoordinator.swift in Sources */,
+				C38D3AE62562704300ABBCED /* RedVMProtocol.swift in Sources */,
+				C38D3ADA25626F4700ABBCED /* GreenVM.swift in Sources */,
+				C38D3ADC25626F5F00ABBCED /* GreenVMProtocol.swift in Sources */,
+				C38D3AD725626DED00ABBCED /* MainView.swift in Sources */,
+				C38D3AD025626ABD00ABBCED /* GreenVC.swift in Sources */,
+				C38D3AE225626FEC00ABBCED /* RedVC.swift in Sources */,
+				C38D3ADF25626F7C00ABBCED /* GreenView.swift in Sources */,
+				C38D3ACC256268B200ABBCED /* MainVMProtocol.swift in Sources */,
+				C38D3AC12562622100ABBCED /* MainVC.swift in Sources */,
+				C38D3AF2256274CA00ABBCED /* RedCoordinator.swift in Sources */,
 				C38D3AA125625F9600ABBCED /* AppDelegate.swift in Sources */,
-				C38D3AA325625F9600ABBCED /* SceneDelegate.swift in Sources */,
+				C38D3AE42562702F00ABBCED /* RedVM.swift in Sources */,
+				C38D3AE92562705B00ABBCED /* RedView.swift in Sources */,
+				C38D3ACE2562690300ABBCED /* MainVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C38D3AA625625F9600ABBCED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C38D3AA725625F9600ABBCED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C38D3AAB25625F9B00ABBCED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C38D3AAC25625F9B00ABBCED /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C38D3AAF25625F9B00ABBCED /* Debug */ = {
@@ -282,9 +486,10 @@
 		};
 		C38D3AB225625F9B00ABBCED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8722DE72BEC61A9C4956175B /* Pods-Colors_IN_MVVM-C_App.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Colors_IN_MVVM-C_App/Resources/Assets.xcassets";
 				DEVELOPMENT_TEAM = 9WV7FAQ557;
 				INFOPLIST_FILE = "Colors_IN_MVVM-C_App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,9 +505,10 @@
 		};
 		C38D3AB325625F9B00ABBCED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4967D7671DB38BCC2F14070B /* Pods-Colors_IN_MVVM-C_App.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Colors_IN_MVVM-C_App/Resources/Assets.xcassets";
 				DEVELOPMENT_TEAM = 9WV7FAQ557;
 				INFOPLIST_FILE = "Colors_IN_MVVM-C_App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
